@@ -23,6 +23,6 @@ public class SpringcloudclientApplication {
 
 	@RequestMapping("/hi")
 	public String home(@RequestParam String name){
-		return "hi"+name+",SpringCloud启动连接成功,端口："+port;
+		return "hi"+name+",SpringCloud启动连接成功11111,端口："+port;
 	}
 }
